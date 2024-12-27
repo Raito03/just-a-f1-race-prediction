@@ -1,0 +1,129 @@
+
+# Allow specific files or directories within f1-ap
+!f1-ap/.gitignore
+!f1-ap/README.md  # Example: keep README.md if it exists
+!f1-ap/some_directory/  # Example: keep a specific directory
+!f1-ap/some_file.py  # Example: keep a specific file
+
+# Byte-compiled / optimized / DLL files
+f1-ap/__pycache__/
+f1-ap/*.py[cod]
+f1-ap/*$py.class
+
+# C extensions
+f1-ap/*.so
+
+# Distribution / packaging
+f1-ap/.Python
+f1-ap/build/
+f1-ap/develop-eggs/
+f1-ap/dist/
+f1-ap/downloads/
+f1-ap/eggs/
+f1-ap/.eggs/
+f1-ap/lib/
+f1-ap/lib64/
+f1-ap/parts/
+f1-ap/sdist/
+f1-ap/var/
+f1-ap/wheels/
+f1-ap/share/python-wheels/
+f1-ap/*.egg-info/
+f1-ap/.installed.cfg
+f1-ap/*.egg
+f1-ap/MANIFEST
+
+# PyInstaller
+f1-ap/*.manifest
+f1-ap/*.spec
+
+# Installer logs
+f1-ap/pip-log.txt
+f1-ap/pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+f1-ap/htmlcov/
+f1-ap/.tox/
+f1-ap/.nox/
+f1-ap/.coverage
+f1-ap/.coverage.*
+f1-ap/.cache
+f1-ap/nosetests.xml
+f1-ap/coverage.xml
+f1-ap/*.cover
+f1-ap/*.py,cover
+f1-ap/.hypothesis/
+f1-ap/.pytest_cache/
+f1-ap/cover/
+
+# Translations
+f1-ap/*.mo
+f1-ap/*.pot
+
+# Django stuff
+f1-ap/*.log
+f1-ap/local_settings.py
+f1-ap/db.sqlite3
+f1-ap/db.sqlite3-journal
+
+# Flask stuff
+f1-ap/instance/
+f1-ap/.webassets-cache
+
+# Scrapy stuff
+f1-ap/.scrapy
+
+# Sphinx documentation
+f1-ap/docs/_build/
+
+# PyBuilder
+f1-ap/.pybuilder/
+f1-ap/target/
+
+# Jupyter Notebook
+f1-ap/.ipynb_checkpoints
+
+# IPython
+f1-ap/profile_default/
+f1-ap/ipython_config.py
+
+# Environments
+f1-ap/.venv/
+f1-ap/env/
+f1-ap/venv/
+f1-ap/ENV/
+f1-ap/env.bak/
+f1-ap/venv.bak/
+
+# Spyder project settings
+f1-ap/.spyderproject
+f1-ap/.spyproject
+
+# Rope project settings
+f1-ap/.ropeproject
+
+# mkdocs documentation
+f1-ap/site/
+
+# mypy
+f1-ap/.mypy_cache/
+f1-ap/.dmypy.json
+f1-ap/dmypy.json
+
+# Pyre type checker
+f1-ap/.pyre/
+
+# pytype static type analyzer
+f1-ap/.pytype/
+
+# Cython debug symbols
+f1-ap/cython_debug/
+
+# PyCharm
+f1-ap/.idea/
+f1-ap/.DS_Store
+f1-ap/note.txt
+
+# Additional files to ignore
+# Add any other specific files or directories you want to ignore here
+
