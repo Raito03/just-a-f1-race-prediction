@@ -6,12 +6,12 @@ import xgboost as xgb
 
 # Load the saved model
 loaded_model = xgb.XGBClassifier()
-loaded_model.load_model('f1-ap/models/XGBoost_model_with_CircuitId.xgb')
+loaded_model.load_model('./models/XGBoost_model_with_CircuitId.xgb')
 
 # Load necessary data
-formula_1 = pd.read_csv('f1-ap/assets/formula_1_result.csv')
-df_circuits = pd.read_csv('f1-ap/assets/df_circuits_result.csv')
-df_drivers = pd.read_csv('f1-ap/assets/df_drivers_result.csv')
+formula_1 = pd.read_csv('./assets/formula_1_result.csv')
+df_circuits = pd.read_csv('./assets/df_circuits_result.csv')
+df_drivers = pd.read_csv('./assets/df_drivers_result.csv')
 
 # Initialize LabelEncoder
 le = LabelEncoder()
