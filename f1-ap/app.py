@@ -6,7 +6,7 @@ from prediction import predict_positions
 
 
 app = Flask(__name__)
-CORS(app, upports_credentials=True, origins=["http://localhost:5173"])
+CORS(app, upports_credentials=True, origins=["http://localhost:5173","https://just-a-f1-race-prediction.vercel.app"])
 # Sample data storage
 data_storage = "Hello ! this is Prediction API"
 
@@ -63,4 +63,4 @@ def predictionWithoutLocation():
 
 if __name__ == '__main__':
     print("⚙️ Flask API server live  🚀")
-    app.run(debug=True)
+    # app.run(debug=True)
