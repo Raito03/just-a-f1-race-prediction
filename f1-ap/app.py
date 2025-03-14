@@ -63,4 +63,4 @@ def predictionWithoutLocation():
 
 if __name__ == '__main__':
     print("⚙️ Flask API server live  🚀")
-    app.run(debug=True)
+    # app.run(debug=True)

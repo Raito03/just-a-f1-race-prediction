@@ -42,7 +42,6 @@ markdown-it-py==3.0.0
 MarkupSafe==2.1.5
 matplotlib==3.8.3
 mdurl==0.1.2
-mkl-service==2.4.0
 narwhals==1.17.0
 numpy==1.26.4
 orjson==3.9.15
